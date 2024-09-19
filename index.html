@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hacktiv</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script defer src="/js/index.js"></script>
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+  <body class="flex justify-center items-center min-h-screen bg-gray-100">
+    <div id="cards" class="relative md:w-2/3 w-full md:h-96 h-screen">
+      <div
+        class="card card-visible absolute top-0 left-0 w-full h-full bg-blue-500 text-white flex md:flex-row flex-col md:items-start md:justify-start items-center justify-center text-xl rounded-lg p-3 shadow-xl"
+      >
+        <img
+          src="./assets/cake.png"
+          alt="cake image"
+          class="w-1/2 h-full object-contain"
+        />
+        <div
+          class="flex flex-col items-start md:justify-evenly w-full h-full md:py-10 gap-4 md:pr-10 p-4"
+        >
+          <h1 class="text-3xl">Happy Birthday!</h1>
+          <h2 class="text-xl">Dear Friend</h2>
+          <p class="text-lg text-justify">
+            May this special day bring much happiness and joy to your life. On
+            this special day, may all your dreams and wishes come true. You
+            deserve the best!
+          </p>
+          <button
+            class="next-button w-full flex justify-end items-center"
+            data-index="0"
+          >
+            Next
+          </button>
+        </div>
+      </div>
+      <div
+        class="card card-hidden absolute top-0 left-0 w-full h-full bg-red-500 text-white flex md:flex-row flex-col md:items-start md:justify-start items-center justify-center text-xl rounded-lg p-3 shadow-xl"
+      >
+        <img
+          src="./assets/ballon.png"
+          alt="ballon image"
+          class="w-1/2 h-full object-contain"
+        />
+        <div
+          class="flex flex-col items-start md:justify-evenly w-full h-full md:py-10 gap-4 md:pr-10 p-4"
+        >
+          <h1 class="text-3xl">Today is yours!</h1>
+          <p class="text-lg text-justify">
+            In every second that passes, may you be surrounded by people who
+            love you and bring you happiness. This year is a new chapter in your
+            life, full of opportunities and adventures waiting to be explored.
+          </p>
+          <button
+            class="next-button w-full flex justify-end items-center"
+            data-index="1"
+          >
+            Next
+          </button>
+        </div>
+      </div>
+      <div
+        class="card card-hidden absolute top-0 left-0 w-full h-full bg-yellow-500 text-white flex md:flex-row flex-col md:items-start md:justify-start items-center justify-center text-xl rounded-lg p-3 shadow-xl"
+      >
+        <img
+          src="./assets/box.png"
+          alt="box image"
+          class="w-1/2 h-full object-contain"
+        />
+        <div
+          class="flex flex-col items-start md:justify-evenly w-full h-full md:py-10 gap-4 md:pr-10 p-4"
+        >
+          <h1 class="text-3xl">Happy Birthday once again!!</h1>
+          <p class="text-lg text-justify">
+            Don't forget how much you mean to all of us. May this year bring you
+            health, luck, and many precious moments that you will cherish
+            forever. Enjoy every moment of this special day!
+          </p>
+          <button
+            class="next-button w-full flex justify-end items-center"
+            data-index="2"
+          >
+            Next
+          </button>
+        </div>
+      </div>
+      <div
+        class="card card-hidden absolute top-0 left-0 w-full h-full bg-white text-white flex md:flex-row flex-col items-center justify-center text-xl rounded-lg p-3 shadow-xl"
+      >
+        <img
+          src="./assets/thanks.png"
+          alt="box image"
+          class="w-1/2 h-full object-contain"
+        />
+      </div>
+    </div>
+  </body>
+</html>
